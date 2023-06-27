@@ -21,7 +21,7 @@ const Content = () => {
                 <div className="columns-3">
                   <div>{formatName(user)}</div>
                   <div>검색바</div>
-                  <div></div>
+                  <div>ㅅㄷㄴㅅ</div>
                 </div>
                 <div>3</div>
             </div>
