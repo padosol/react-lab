@@ -1,6 +1,8 @@
 const Test =() =>{
     return (
-        <div>test</div>
+        <div>test
+            <div>test2</div>
+        </div>
     )
 }
 
