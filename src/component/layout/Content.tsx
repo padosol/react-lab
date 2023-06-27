@@ -15,10 +15,14 @@ const user:User= {
 
 const Content = () => {
     return (
-        <div className="container ">
+        <div className="container">
             <div className="columns-3">
                 <div>1</div>
-                <div>{formatName(user)}</div>
+                <div className="columns-3">
+                  <div>{formatName(user)}</div>
+                  <div>검색바</div>
+                  <div></div>
+                </div>
                 <div>3</div>
             </div>
         </div>
