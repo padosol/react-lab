@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Header from './component/layout/Header';
 import Content from './component/layout/Content';
@@ -10,9 +11,13 @@ function App() {
 
   return (
     <div className="App ">
-      <Header></Header>
-      <Content></Content>
-      <Footer></Footer>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={ <Header/> }></Route>  
+          <Route path="/content" element= { <Content /> }></Route>
+          <Route path="/footer" element={ <Footer/> }></Route>
+        </Routes>     
+      </BrowserRouter>
     </div>
   );
 }
