@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <header>
             <div>
-                Header
+                Header 입니다.
             </div>
         </header>
     )
