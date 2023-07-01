@@ -22,6 +22,7 @@ const Content = () => {
                   <div>{formatName(user)}</div>
                   <div>검색바</div>
                   <div>ㅅㄷㄴㅅ</div>
+                  <div>test</div>
                 </div>
                 <div>3</div>
             </div>
