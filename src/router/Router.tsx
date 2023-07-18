@@ -4,8 +4,6 @@ import Header from '../component/layout/Header';
 import Content from '../component/layout/Content';
 import Footer from '../component/layout/Footer';
 
-// test
-
 function Router() {
     return  (
     <BrowserRouter>
