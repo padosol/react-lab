@@ -12,7 +12,6 @@ const Test = () =>{
         data2: 'test'
     });
 
-    console.log(data)
     setData({
         data: 2,
         data2: 'abc'
