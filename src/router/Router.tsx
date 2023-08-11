@@ -6,14 +6,13 @@ import Footer from '../component/layout/Footer';
 
 function Router() {
     return  (
-    <BrowserRouter>
-        <Routes>
-            <Route path="/" element={ <Header/> }></Route>  
-            <Route path="/content" element= { <Content /> }></Route>
-            <Route path="/footer" element={ <Footer/> }></Route>
-        </Routes>     
-    </BrowserRouter>
-
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={ <Header/> }></Route>  
+                <Route path="/content" element= { <Content /> }></Route>
+                <Route path="/footer" element={ <Footer/> }></Route>
+            </Routes>     
+        </BrowserRouter>
     )     
 }
 
