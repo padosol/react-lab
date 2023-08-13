@@ -10,11 +10,35 @@ const root = ReactDOM.createRoot(
 );
 
 
-function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>
+
+const name = 'Josh Perez';
+
+interface user {
+  firstName: String,
+  lastName: String
+}
+
+const user = {
+  firstName: 'Harper',
+  lastName: 'Perez'
 }
 
 
+function formatName(user:user){
+  return user.firstName + ' ' + user.lastName;
+}
+
+function getGreeting(user:user) {
+  if(!user){
+    return <h1>Hello, {formatName(user)}</h1>
+  } else {
+    return <h1>Hello, Stranger.</h1>
+  }
+}
+
+const element = getGreeting(user);
+
+root.render(element)
 
 
 // If you want to start measuring performance in your app, pass a function
